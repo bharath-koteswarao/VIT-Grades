@@ -80,7 +80,7 @@ router.get('/', function (req, res, next) {
 
         request.post({
                 url: 'https://vtop.vit.ac.in/student/stud_login_submit.asp',
-                body: "message=&regno=15BEC0584&passwd=Aa1%40bcdebkkb&vrfcd=" + vrfcd,
+                body: "message=&regno=#########&passwd=<password>&vrfcd=" + vrfcd,
                 headers: reqHeaders,
                 followAllRedirects: true,
                 jar: true,
